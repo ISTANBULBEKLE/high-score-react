@@ -1,13 +1,12 @@
 import React from "react";
-import Header from "./Header";
-import Table from "./Table";
 import "./App.css";
+import HighScoreTable from "./HighScoreTable";
 
 const App = () => {
   return (
     <div className="App">
-      <Header />
-      <Table />
+      <h1 className="country-name">High Scores per Countries</h1>
+      <HighScoreTable />
     </div>
   );
 };
