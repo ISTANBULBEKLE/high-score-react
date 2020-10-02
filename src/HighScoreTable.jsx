@@ -1,29 +1,19 @@
 import React from "react";
 import PlayerScore from "./PlayerScore";
 import allCountryScores from "./data/Scores";
+import TableHead from "./TableHead";
+import TableBody from "./TableBody";
 
 const HighScoreTable = () => {
   const data = allCountryScores;
-  // console.log(data);
-  const [countryName, countryScore] = data;
 
-  console.log(countryName);
-  // console.log(countryScore);
+  console.log(data);
 
   return (
     <div>
       <table>
-        <tr>
-          {allCountryScores.map((country) => (
-            <th>{country.name}</th>
-             <tr><PlayerScore /><tr/>
-          ))}
-        </tr>
-        <tr>
-          <td>
-           
-          </td>
-        </tr>
+        <TableHead country={data.name} />
+        <TableBody />
       </table>
     </div>
   );
