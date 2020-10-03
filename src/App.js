@@ -3,7 +3,7 @@ import "./App.css";
 import allCountryScores from "./data/Scores";
 import CountryTable from "./CountryTable";
 
-const App = () => {
+function App() {
   return (
     <div className="App">
       <h1 className="country-name">High Scores per Countries</h1>
@@ -12,6 +12,6 @@ const App = () => {
       ))}
     </div>
   );
-};    
+}    
 
 export default App;
