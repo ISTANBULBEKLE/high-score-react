@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+.country-container{
+  border:5px solid rgb(178, 241, 83);
+  margin:10px;
+}
+
+.row{
+  border:1px solid black;
+  display:flex;
+  justify-items: flex-end;
+
+}
+
+.rowelement{
+  background-color: rgb(235, 92, 92);
+  width:50%;
+  border:1px solid black;
+  text-align: end;
+  padding:3px;
+
+}

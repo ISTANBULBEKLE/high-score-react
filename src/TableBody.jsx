@@ -2,7 +2,7 @@ import React from "react";
 import allCountryScores from "./data/Scores";
 
 const TableBody = () => {
-  const data = allCountryScores[1];
+  const data = allCountryScores;
   console.log(data);
 
   return (

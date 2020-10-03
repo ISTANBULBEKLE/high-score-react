@@ -1,14 +1,17 @@
 import React from "react";
 import "./App.css";
-import HighScoreTable from "./HighScoreTable";
+import allCountryScores from "./data/Scores";
+import CountryTable from "./CountryTable";
 
 const App = () => {
   return (
     <div className="App">
       <h1 className="country-name">High Scores per Countries</h1>
-      <HighScoreTable />
+      {allCountryScores.map((country) => (
+        <CountryTable countryName={country.name} countryScores={country.scores} />
+      ))}
     </div>
   );
-};
+};    
 
 export default App;
