@@ -37,8 +37,13 @@
   }
 }
 
+body{
+  background-color: #00ffdb2e;
+  font-weight: bolder;
+}
 .country-container{
-  border:5px solid rgb(4, 139, 88);
+  border:3px solid rgb(21, 22, 22);
+  background-color: rgba(133, 212, 101, 0.918);
   margin:10px;
 }
 
@@ -50,7 +55,7 @@
 }
 
 .row-element{
-  background-color: rgb(235, 92, 92);
+  background-color: rgba(247, 114, 110, 0.747);
   width:50%;
   border:1px solid black;
   text-align: end;
